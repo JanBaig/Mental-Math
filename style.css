@@ -1,0 +1,205 @@
+/* Div uses .NAME and Normal elements use #NAME*/
+
+.index-center {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', cursive;
+    color: white
+
+}
+
+.second-center {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+#btn:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+#title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    letter-spacing: .1em;
+     
+}
+
+#title:hover {
+    color: rgb(187, 190, 191);
+}
+
+#text{
+    font-size:30px;
+    margin-top: 0px;
+    margin-bottom:10px;
+}
+
+#q-num{
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    letter-spacing: .1em;
+}
+
+.num-container{
+    /* Flex for inline of the div componenets*/
+    display: flex;
+    font-size: 20px;
+    color: white;
+}
+
+#first-num{
+    /* Making the num in the middle of div*/
+    width: auto;
+    margin: auto;
+    font-size: 20px;
+}
+
+#second-num{
+    /* Making the num in the middle of div*/
+    width: auto;
+    margin:auto;
+    font-size: 20px;
+}
+
+#btn-back{
+    position: absolute;
+    left: 2%;
+    top: 87%;
+}
+
+#time{
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px
+
+}
+
+#remaining{
+    position: absolute;
+    left: 90.5%;
+    top: 1%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.answer-container{
+    display: flex;
+}
+
+#the-scores{
+    position: absolute;
+    left: 93.5%;
+    top: 10%;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin-top: 0px;
+     font-size: 20px;
+
+}
+
+body{
+    background-color: rgb(114, 177, 181);
+}
+
+.dot-1 {
+    height: 500px;
+    width:500px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 50%;
+    position: absolute;
+    left: -10%;
+    top: 60%;
+}
+
+.dot-2 {
+    height: 200px;
+    width:200px;
+    background-color: rgb(191, 187, 187);
+    border-radius: 50%;
+    position: absolute;
+    left: -5%;
+    top: 50%;
+}
+.dot-3 {
+    height: 500px;
+    width:500px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    top: -30%;
+  
+}
+
+.dot-4 {
+    height: 200px;
+    width:200px;
+    background-color: rgb(187, 190, 191);
+    border-radius: 50%;
+    position: absolute;
+    left: 75%;
+    top: -10%;
+}
+
+.dot-5 {
+    height: 200px;
+    width:200px;
+    background-color: rgb(187, 190, 191);
+    border-radius: 50%;
+    position: absolute;
+    left: 89%;
+    top: -9%;
+}
+
+
+.btn-levels{
+    margin-bottom: 0px;
+    font-size:25px
+    
+}
+
+#third-title{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', cursive;
+    color: white
+    
+}
+
+#third-scores{
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', cursive;
+    color: white
+}
+
+#btn-play-again{
+    position: absolute;
+    top: 56%;
+    left:45%;
+
+}

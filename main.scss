@@ -1,0 +1,96 @@
+#btn {
+    background: rgb(191, 187, 187);
+    margin-top: 2em;
+    border: none;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+        background: #424242;
+    }
+
+    &:active {
+        background: rgb(191, 187, 187);
+    }
+
+}
+
+#submit{
+    width: 80px;
+    height: 40px;
+    background: rgb(191, 187, 187);
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+        background: #424242;
+    }
+
+    &:active {
+        background: rgb(191, 187, 187);
+    }
+
+}
+
+#btn-back{
+    background: rgb(191, 187, 187);
+    margin-top: 2em;
+    border: none;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+        background: #424242;
+    }
+
+    &:active {
+        background: rgb(191, 187, 187);
+    }
+}
+
+#btn-play-again{
+    
+    background: rgb(191, 187, 187);
+    margin-top: 2em;
+    border: none;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+        background: #424242;
+    }
+
+    &:active {
+        background: rgb(191, 187, 187);
+    }
+}
+
+#user-submit{
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+
+}

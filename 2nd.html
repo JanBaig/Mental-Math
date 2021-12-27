@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Second Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class='dot-1'></div>
+    <div class='dot-2'></div>
+    <div class='dot-3'></div>
+    <div class='dot-5'></div>
+
+    <div class='second-center'>
+
+        <h1 id='level-display'>Easy</h1>
+        <h1 id ='q-num'>Question 1</h1>
+
+        <div class='num-container'>
+            <p id='first-num'>3</p>
+            <p>+</p>
+            <p id='second-num'>4</p>
+        </div>
+
+        <!-- Could add form here!-->
+        <input placeholder="Answer here" id='user-submit'>
+        <p></p>
+        <button type=button, id="submit">Submit</button>
+
+
+
+        <!-- Only works when you click Submit-->
+        <p id="click-submit"></p>
+
+        <div class=answer-container>
+            <p> </p>
+            <p id=answer-write> </p>
+        </div>
+
+    </div>
+
+
+    <a href="http://127.0.0.1:5500/index.html">
+        <button type=button, id="btn-back">Back</button>
+    </a>
+
+    <!--Time Count-->
+    <p id='time'>Time Remaining: 00:00</p>
+
+
+    <p id='remaining'></p>
+    <p id = 'the-scores'>Score: 0</p>
+
+    <!-- External Files-->
+    <link rel="stylesheet" href="style.css">
+    <script src="2nd.js"></script>
+    
+</body>
+</html>

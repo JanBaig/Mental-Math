@@ -1,0 +1,93 @@
+#btn {
+  background: #bfbbbb;
+  margin-top: 2em;
+  border: none;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  outline: 0;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: #424242;
+}
+
+#btn:active {
+  background: #bfbbbb;
+}
+
+#submit {
+  width: 80px;
+  height: 40px;
+  background: #bfbbbb;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  outline: 0;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: #424242;
+}
+
+#submit:active {
+  background: #bfbbbb;
+}
+
+#btn-back {
+  background: #bfbbbb;
+  margin-top: 2em;
+  border: none;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  outline: 0;
+  cursor: pointer;
+}
+
+#btn-back:hover {
+  background: #424242;
+}
+
+#btn-back:active {
+  background: #bfbbbb;
+}
+
+#btn-play-again {
+  background: #bfbbbb;
+  margin-top: 2em;
+  border: none;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  outline: 0;
+  cursor: pointer;
+}
+
+#btn-play-again:hover {
+  background: #424242;
+}
+
+#btn-play-again:active {
+  background: #bfbbbb;
+}
+
+#user-submit {
+  background: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+  outline: 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
